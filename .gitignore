@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Env & secrets - jangan pernah commit file .env asli
+.env
+*.local
+
+# Build output
+dist/
+build/
+
+# OS & editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Backup database lokal (hasil mysqldump bidan)
+*.sql.bak
+backup/
+*.dump
